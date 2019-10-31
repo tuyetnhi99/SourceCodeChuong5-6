@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Chaper6"
+             x:Class="Chaper6.MainPage">
+
+    <StackLayout>
+        <Button Text="ListViewStrings" Clicked="ListViewStrings_Clicked"/>
+        <Button Text="ListViewDataModel" Clicked="ListViewDataModel_Clicked"/>
+        <Button Text="ListViewImageCell" Clicked="ListViewImageCell_Clicked"/>
+        <Button Text="ListViewCustom" Clicked="ListViewCustom_Clicked"/>
+        <Button Text="ListViewButton" Clicked="ListViewButton_Clicked"/>
+        <Button Text="ListViewContextAction" Clicked="ListViewContextAction_Clicked"/>
+        <Button Text="ListViewGrouped" Clicked="ListViewGrouped_Clicked"/>
+        <Button Text="ListViewGroupedTemplate" Clicked="ListViewGroupedTemplate_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
